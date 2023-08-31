@@ -9,3 +9,13 @@
 доступные rest можно посмотреть тут https://chains.cosmos.directory/akash
 
 в текущем задании нужно из response выдернуть данные по пути data.txs , данные лежат в base64, то есть понадобится метод base64.b64decode()
+
+## Запуск через poetry:
+1. Установить все зависимости
+```
+$ poetry install
+```
+2. Запустить скрипт 
+```
+$ poetry run src/main.py
+```
